@@ -45,7 +45,7 @@ def login():
         username = request.form['username']
         password = request.form['password']
         
-        db = get_Db()
+        db = get_db()
         error = None
 
         user = db.execute(
